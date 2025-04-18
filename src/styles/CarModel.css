@@ -1,0 +1,32 @@
+.btn-return {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px rgba(220, 53, 69, 0.3), 0 5px 5px rgba(220, 53, 69, 0.3);
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  pointer-events: auto;
+  position: absolute;
+}
+
+.btn-return:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 30px rgba(220, 53, 69, 0.5), 0 8px 10px rgba(220, 53, 69, 0.3);
+}
+
+.btn-return:active {
+  transform: translateY(2px);
+  box-shadow: 0 5px 10px rgba(220, 53, 69, 0.2), 0 2px 5px rgba(220, 53, 69, 0.1);
+}
+
+.btn-return:focus {
+  outline: none;
+  border: 2px solid #dc3545;
+}
